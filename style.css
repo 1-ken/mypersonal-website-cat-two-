@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ecdddd;
+  background-color: #7c7676;
+}
+
+/* Common styles for flexibility */
+.flex-content {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.flex-content2 {
+  width: auto;
+  margin: 10px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.flex-content2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-content2 ul li {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: #504444;
+  cursor: pointer;
+  transition: background-color 0.4s, color 0.4s;
+  color: aqua;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.content {
+  width: 20%;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  margin: 10px;
+}
+
+hr {
+  width: 95%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: aqua;
+  transition: transform 0.3s ease-in-out, color 0.4s;
+  transform: rotate(360deg);
+}
+
+/* Homepage specific styles */
+.home-h1 {
+  position: fixed;
+  top: 0;
+  margin-left: 20px;
+}
+
+/* About specific styles */
+.body-content {
+  margin: 10px;
+}
+
+.nav1 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav1 ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.flex-content-ab {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.nav1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.bio {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  line-height: 1.5;
+  float: right;
+}
+
+/* Childhood specific styles */
+.body-text {
+  margin-left: 30px;
+  padding: 10px;
+  width: 80%;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.more-about ul {
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.more-about ul li {
+  list-style: none;
+  margin: 10px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* Education specific styles */
+.edh1 {
+  text-align: center;
+}
+
+#pic img {
+  height: 440px;
+  margin-left: 40px;
+  display: inline-flex;
+  width: 400px;
+  margin-right: 40px;
+}
+
+.right {
+  float: right;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+  display: inline;
+  margin-left: 15px;
+}
+
+#flex-content-ed1 {
+  display: flex;
+}
+
+/* Contact specific styles */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 2px;
+}
+
+input[type=submit] {
+  background-color: #0417aa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type=submit]:hover {
+  background-color: #0d5331;
+  border-radius: 2px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column,
+  input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+  }
+}
+
+.exp-content {
+  margin-left: 30px;
+  margin-right: 10px;
+}
